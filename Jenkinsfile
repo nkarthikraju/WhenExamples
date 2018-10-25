@@ -6,7 +6,7 @@ pipeline{
 				changelog 'hello'
 			}
 			steps{
-				echo "Yes, change log contains hello message..."
+				echo "Yes, change log contains hello message...."
 			}
 		}
 	}

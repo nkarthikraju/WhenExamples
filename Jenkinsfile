@@ -3,5 +3,7 @@ agent any
 stages{
 stage("WhenExamples"){
 steps{
-echo "hello world from SCM"
+when { 
+changelog 'hello' }
+echo "Yes, change log contains hello message"
 }}}}

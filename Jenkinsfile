@@ -3,5 +3,5 @@ agent any
 stages{
 stage("WhenExamples"){
 steps{
-echo "hello world"
+echo "hello world from SCM"
 }}}}

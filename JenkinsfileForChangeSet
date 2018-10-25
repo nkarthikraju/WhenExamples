@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("WhenExamples"){
 			when { 
-				changeset '.pl'
+				changeset '*.pl'
 			}
 			steps{
 				echo "Yes, commit files contain perl scripts"
